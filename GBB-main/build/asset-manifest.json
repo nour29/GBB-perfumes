@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.90ca8629.css",
+    "main.js": "/static/js/main.adbb3d76.js",
+    "static/media/perfume.jpg": "/static/media/perfume.a2ce87988e982bef3e2d.jpg",
+    "static/media/euphoria.jpg": "/static/media/euphoria.6f20dfc7551435deb0d1.jpg",
+    "static/media/citrus.jpg": "/static/media/citrus.c0cdc19b693f6e088b9b.jpg",
+    "index.html": "/index.html",
+    "main.90ca8629.css.map": "/static/css/main.90ca8629.css.map",
+    "main.adbb3d76.js.map": "/static/js/main.adbb3d76.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90ca8629.css",
+    "static/js/main.adbb3d76.js"
+  ]
+}
