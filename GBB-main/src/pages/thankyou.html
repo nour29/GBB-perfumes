@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checkout - GBB Perfumes</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 300px;
+}
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background-color: #d63384;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+button:hover { background-color: #b42a6e; }
+</style>
+</head>
+<body>
+<form onsubmit="event.preventDefault(); window.location.href='thankyou.html';">
+<h2>Checkout</h2>
+<input type="text" placeholder="Full Name" required>
+<input type="email" placeholder="Email Address" required>
+<input type="text" placeholder="Card Number" required>
+<input type="text" placeholder="Expiry Date (MM/YY)" required>
+<input type="text" placeholder="CVV" required>
+<button type="submit">Pay Now</button>
+</form>
+</body>
+</html>
